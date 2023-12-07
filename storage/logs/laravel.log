@@ -1,0 +1,16 @@
+[2023-12-06 21:33:46] local.ERROR: Command "server" is not defined.
+
+Did you mean one of these?
+    make:observer
+    serve {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"server\" is not defined.
+
+Did you mean one of these?
+    make:observer
+    serve at C:\\Apache24\\htdocs\\Bon_Deal\\vendor\\symfony\\console\\Application.php:737)
+[stacktrace]
+#0 C:\\Apache24\\htdocs\\Bon_Deal\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find()
+#1 C:\\Apache24\\htdocs\\Bon_Deal\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#2 C:\\Apache24\\htdocs\\Bon_Deal\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#3 C:\\Apache24\\htdocs\\Bon_Deal\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#4 {main}
+"} 
