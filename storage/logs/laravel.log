@@ -14,3 +14,75 @@ Did you mean one of these?
 #3 C:\\Apache24\\htdocs\\Bon_Deal\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #4 {main}
 "} 
+[2023-12-12 11:38:26] production.ERROR: file_get_contents(C:\Apache24\htdocs\Bon_Deals-1\.env): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_get_contents(C:\\Apache24\\htdocs\\Bon_Deals-1\\.env): Failed to open stream: No such file or directory at C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\KeyGenerateCommand.php:100)
+[stacktrace]
+#0 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\KeyGenerateCommand.php(100): file_get_contents()
+#3 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\KeyGenerateCommand.php(82): Illuminate\\Foundation\\Console\\KeyGenerateCommand->writeNewEnvironmentFileWith()
+#4 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\KeyGenerateCommand.php(47): Illuminate\\Foundation\\Console\\KeyGenerateCommand->setKeyInEnvironmentFile()
+#5 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Console\\KeyGenerateCommand->handle()
+#6 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#8 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#9 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#10 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call()
+#11 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute()
+#12 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#13 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run()
+#14 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#15 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#16 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#17 C:\\Apache24\\htdocs\\Bon_Deals-1\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#18 {main}
+"} 
+[2023-12-12 11:38:29] production.ERROR: file_get_contents(C:\Apache24\htdocs\Bon_Deals-1\.env): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_get_contents(C:\\Apache24\\htdocs\\Bon_Deals-1\\.env): Failed to open stream: No such file or directory at C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\KeyGenerateCommand.php:100)
+[stacktrace]
+#0 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(254): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\KeyGenerateCommand.php(100): file_get_contents()
+#3 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\KeyGenerateCommand.php(82): Illuminate\\Foundation\\Console\\KeyGenerateCommand->writeNewEnvironmentFileWith()
+#4 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\KeyGenerateCommand.php(47): Illuminate\\Foundation\\Console\\KeyGenerateCommand->setKeyInEnvironmentFile()
+#5 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Console\\KeyGenerateCommand->handle()
+#6 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#8 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#9 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call()
+#10 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call()
+#11 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute()
+#12 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#13 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run()
+#14 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#15 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#16 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#17 C:\\Apache24\\htdocs\\Bon_Deals-1\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#18 {main}
+"} 
+[2023-12-13 01:35:04] local.ERROR: Too many arguments to "make:model" command, expected arguments "name". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Too many arguments to \"make:model\" command, expected arguments \"name\". at C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Input\\ArgvInput.php:196)
+[stacktrace]
+#0 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Input\\ArgvInput.php(89): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument()
+#1 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Input\\ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#2 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Input\\Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#3 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Command\\Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#4 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#5 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run()
+#6 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#7 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#8 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#9 C:\\Apache24\\htdocs\\Bon_Deals-1\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
+[2023-12-13 01:35:30] local.ERROR: Too many arguments to "make:model" command, expected arguments "name". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Too many arguments to \"make:model\" command, expected arguments \"name\". at C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Input\\ArgvInput.php:196)
+[stacktrace]
+#0 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Input\\ArgvInput.php(89): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument()
+#1 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Input\\ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#2 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Input\\Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#3 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Command\\Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#4 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#5 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run()
+#6 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#7 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#8 C:\\Apache24\\htdocs\\Bon_Deals-1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#9 C:\\Apache24\\htdocs\\Bon_Deals-1\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
